@@ -82,8 +82,43 @@ My work is rooted in programming fundamentals, object-oriented design, and pract
 <a href="https://github.com/miksi0078?tab=repositories"><strong>View all repositories</strong></a>
 </div>
 
-## What I'm Working On
 
+## GitHub Analytics
+
+<div align="center">
+
+### Activity Overview
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="./assets/overview.dark.svg">
+  <img src="./assets/overview.light.svg"
+    width="100%" alt="GitHub Overview">
+</picture>
+
+### Programming Languages
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="./assets/languages.dark.svg">
+  <img src="./assets/languages.light.svg"
+    width="100%" alt="Programming Languages">
+</picture>
+
+### Contribution History
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="./assets/contributions.dark.svg">
+  <img src="./assets/contributions.light.svg"
+    width="100%" alt="GitHub Contributions">
+</picture>
+
+</div>
+
+---
+
+## What I'm Working On
 | Focus | Direction |
 |:---|:---|
 | **Programming** | Writing clearer, more maintainable Python and C++ |
