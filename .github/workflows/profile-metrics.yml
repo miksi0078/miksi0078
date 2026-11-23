@@ -1,0 +1,30 @@
+
+name: Refresh Profile Analytics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "27 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub profile cards
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: miksi0078
+          cards: overview,languages,contributions
+          output-dir: assets
+          themes: light,dark
+          palette: blue
+          commit: true
+          commit-message: "chore: refresh profile analytics"
