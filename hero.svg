@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Muhammad Ilyas, Artificial Intelligence Undergraduate, Python and C++ developer">
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#081324"/>
+    <stop offset="0.57" stop-color="#0D2038"/>
+    <stop offset="1" stop-color="#071325"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#2A9CBE" stop-opacity="0.25"/>
+    <stop offset="1" stop-color="#2A9CBE" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#6DDBDD"/>
+    <stop offset="1" stop-color="#6BA6F4"/>
+  </linearGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+    <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#2B4361" stroke-opacity="0.26" stroke-width="0.8"/>
+  </pattern>
+  <clipPath id="clip"><rect x="0" y="0" width="1280" height="420" rx="24" /></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1280" height="420" fill="url(#background)"/>
+  <rect width="1280" height="420" fill="url(#grid)" opacity="0.65"/>
+  <circle cx="1100" cy="190" r="315" fill="url(#glow)"/>
+  <path d="M0 405 H1280" stroke="url(#accent)" stroke-opacity="0.48" stroke-width="3"/>
+  <path d="M0 0 H1280" stroke="#3C6281" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M56 60 H76" stroke="#69DEDD" stroke-width="4" stroke-linecap="round"/>
+  <text x="88" y="65" fill="#A9BDCE" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="13" letter-spacing="3.2">DEVELOPER PORTFOLIO</text>
+  <text x="1202" y="65" fill="#8FA7BC" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2.2" text-anchor="end">LAHORE · PAKISTAN</text>
+
+  <text x="64" y="172" fill="#F6FAFF" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="70" letter-spacing="-1.8">Muhammad Ilyas</text>
+  <text x="66" y="225" fill="#7DE0E4" font-family="Arial,Helvetica,sans-serif" font-weight="500" font-size="25">Artificial Intelligence Undergraduate</text>
+  <rect x="66" y="249" width="445" height="1.5" fill="url(#accent)" opacity=".55"/>
+  <text x="66" y="286" fill="#CDDEEC" font-family="Arial,Helvetica,sans-serif" font-size="17">Building strong foundations in software engineering,</text>
+  <text x="66" y="311" fill="#CDDEEC" font-family="Arial,Helvetica,sans-serif" font-size="17">data analysis, and applied artificial intelligence.</text>
+
+  <rect x="64" y="348" width="91" height="32" rx="7" fill="#122B3B" stroke="#2F7189" stroke-width="1"/>
+  <text x="109.5" y="369" fill="#AEE4E8" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="14" text-anchor="middle">PYTHON</text>
+  <rect x="165" y="348" width="69" height="32" rx="7" fill="#122B3B" stroke="#2F7189" stroke-width="1"/>
+  <text x="199.5" y="369" fill="#AEE4E8" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="14" text-anchor="middle">C++</text>
+  <rect x="244" y="348" width="128" height="32" rx="7" fill="#122B3B" stroke="#2F7189" stroke-width="1"/>
+  <text x="308" y="369" fill="#AEE4E8" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="14" text-anchor="middle">DATA SCIENCE</text>
+
+  <!-- Architectural / network illustration: deliberately abstract and not a claim of specific AI architecture -->
+  <circle cx="1000" cy="221" r="140" fill="#0A1930" stroke="#28465F" stroke-width="1.4"/>
+  <circle cx="1000" cy="221" r="110" fill="none" stroke="#315B72" stroke-width="1.3" stroke-dasharray="4 9"/>
+  <circle cx="1000" cy="221" r="71" fill="#0B2435" stroke="#6CBCD5" stroke-opacity=".75" stroke-width="1.8"/>
+  <path d="M1000 91 L1000 151 M1110 161 L1060 189 M1110 280 L1060 253 M1000 351 L1000 292 M890 280 L940 253 M890 161 L940 189" stroke="#3E7692" stroke-width="2"/>
+  <circle cx="1000" cy="91" r="8" fill="#7DE0E4"/>
+  <circle cx="1110" cy="161" r="8" fill="#8AB8F3"/>
+  <circle cx="1110" cy="280" r="8" fill="#7DE0E4"/>
+  <circle cx="1000" cy="351" r="8" fill="#8AB8F3"/>
+  <circle cx="890" cy="280" r="8" fill="#7DE0E4"/>
+  <circle cx="890" cy="161" r="8" fill="#8AB8F3"/>
+  <text x="1000" y="240" fill="#EAF5FA" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" text-anchor="middle" letter-spacing="-3">MI</text>
+  <circle cx="1000" cy="221" r="157" fill="none" stroke="#345475" stroke-opacity=".45" stroke-width="1"/>
+  <path d="M845 79 H921 M1075 363 H1151" stroke="url(#accent)" stroke-width="2" opacity=".8"/>
+</g>
+</svg>
